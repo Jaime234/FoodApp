@@ -14,7 +14,6 @@ import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.sp
-import androidx.navigation.NavController
 import com.example.foodapp.presentation.view.mainView.MainViewModel
 
 @OptIn(ExperimentalComposeUiApi::class)
