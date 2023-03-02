@@ -1,18 +1,13 @@
 package com.example.foodapp
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
 import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Scaffold
 import androidx.compose.material.Surface
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
 import com.example.foodapp.navigation.Navigation
 import com.example.foodapp.presentation.view.mainView.MainViewModel
 import com.example.foodapp.presentation.view.mealView.MealViewModel
