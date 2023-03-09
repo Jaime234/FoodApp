@@ -57,4 +57,4 @@ data class MealModel(
     @SerializedName("strImageSource") val imageSource: String?,
     @SerializedName("strCreativeCommonsConfirmed") val creativeCommonsConfirmed: String?,
     @SerializedName("dateModified") val dateModified: String?
-) : Serializable
+)

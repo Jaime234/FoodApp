@@ -33,7 +33,6 @@ class MainViewModel @Inject constructor(private val getMealByIngredient: GetMeal
     }
 
     fun onQueryChange(query: String) {
-        println(query)
         _query.value = query
     }
 
